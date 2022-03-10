@@ -1,0 +1,6 @@
+:host:not(:first-of-type) {
+  margin-top: 20px;
+  display: block;
+}
+//ilk olarak kulladığımızda bu özelliği verme
+//2.ya da daha fazla divider componenti kullanılırsa bu özelliği kullanmak için kullanılır.

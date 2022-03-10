@@ -1,0 +1,21 @@
+<div (click)="onCloseClick()" class="ui dimmer visible active">
+  <div (click)="$event.stopPropagation()" class="ui modal visible active">
+    <i (click)="onCloseClick()" class="close icon"></i>
+    <div class="header">
+      Modal!
+    </div>
+    <div class="content">
+      <p>This is a modal</p>
+
+
+    </div>
+    <div class="actions">
+      <button (click)="onCloseClick()" class="ui green button">Evet</button>
+      <button (click)="onCloseClick()" class="ui red button">Hayır</button>
+    </div>
+  </div>
+</div>
+
+<!--
+  $event.stopPropagation() modala tıklanınca modalın içindeki tıklamaların çalışmasını engeller.
+-->

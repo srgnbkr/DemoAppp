@@ -1,0 +1,3 @@
+<app-divider>Popup</app-divider>
+<button class="ui primary button" (click)="onClick()">Kullanıcı Modal</button>
+<app-modal (close)="onClick()" *ngIf="modalOpen"></app-modal>
